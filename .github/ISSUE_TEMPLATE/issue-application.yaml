@@ -41,8 +41,8 @@ body:
       required: true
    - type: input
     attributes:
-      label: Total amount of DataCap being requested 
-      description: Must be a number and unit (e.g 100TiB, 600.46GiB, 1.5PiB)
+      label: Total amount of DataCap being requested2
+      description: Must be a number and unit (e.g 100TiB, 600.46GiB, 1.5PiB)2
     validations:
       required: true
   - type: checkboxes
