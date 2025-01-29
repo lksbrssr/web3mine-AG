@@ -41,7 +41,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: What is the on-chain address for the Datacap allocation?
+      label: On-chain address for first allocation
       description: Make sure the address exists on the chain. This cannot be changed once input here. 
     validations:
       required: true
