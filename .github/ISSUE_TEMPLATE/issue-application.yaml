@@ -39,13 +39,13 @@ body:
       description: Must be a number and unit (e.g 100TiB, 600.46GiB, 1.5PiB)
     validations:
       required: true
-   - type: input
+  - type: input
     attributes:
       label: On-chain address for first allocation
       description: Make sure the address exists on the chain. This cannot be changed once input here.
     validations:
       required: true
-   - type: input
+  - type: input
     attributes:
       label: Weekly allocation of DataCap requested
       description: "Specify the amount of DataCap to be allocated weekly. Must be a number + unit (e.g., 100TiB, 600.46GiB, 1.5PiB)."
