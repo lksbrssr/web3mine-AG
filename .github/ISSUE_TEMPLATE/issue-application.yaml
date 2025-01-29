@@ -39,6 +39,12 @@ body:
       description: Must be a number and unit (e.g 100TiB, 600.46GiB, 1.5PiB)
     validations:
       required: true
+   - type: input
+    attributes:
+      label: Total amount of DataCap being requested 
+      description: Must be a number and unit (e.g 100TiB, 600.46GiB, 1.5PiB)
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Please confirm that a party that is unaffiliated with web3mine AG has paid for storing this data using Ramo Cloud Storage?  
