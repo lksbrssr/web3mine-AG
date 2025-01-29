@@ -39,10 +39,10 @@ body:
       description: Must be a number and unit (e.g 100TiB, 600.46GiB, 1.5PiB)
     validations:
       required: true
-   - type: input
+  - type: input
     attributes:
-      label: Total amount of DataCap being requested2
-      description: Must be a number and unit (e.g 100TiB, 600.46GiB, 1.5PiB)2
+      label: What is the on-chain address for the Datacap allocation?
+      description: Make sure the address exists on the chain. This cannot be changed once input here. 
     validations:
       required: true
   - type: checkboxes
